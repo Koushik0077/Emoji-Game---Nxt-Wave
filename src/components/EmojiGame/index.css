@@ -1,0 +1,21 @@
+/* Write your code here. */
+.eg-container1 {
+  background: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.eg-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ulist1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 225px;
+  padding-right: 225px;
+}

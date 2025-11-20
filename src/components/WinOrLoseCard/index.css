@@ -1,0 +1,53 @@
+/* Write your code here. */
+.wlc-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.wlc-container1 {
+  background: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid #ffffff30;
+  height: 400px;
+  width: 600px;
+  border-radius: 15px;
+  margin-top: 75px;
+}
+.wlc-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.winorlosecard {
+  height: 250px;
+}
+.result-shown {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.score-details {
+  font-size: 25px;
+  margin-top: 15px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.scored-points {
+  color: #6a59ff;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.play-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: #ffce27;
+  border-width: 0px;
+  outline: none;
+}
