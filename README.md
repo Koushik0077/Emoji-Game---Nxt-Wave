@@ -1,177 +1,159 @@
-In this project, let's build an **Emoji Game** by applying the concepts we have learned till now.
+# 🎮 Emoji Fun – Multi-Game Emoji Platform
 
-### Refer to the image below:
+Emoji Fun is a **React-based mini game platform** that includes **three interactive emoji games** with **levels, difficulty modes, and result screens**.
+The project focuses on improving **memory, attention, and visual recognition** through fun and engaging emoji-based gameplay.
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/emoji-game-output-v2.gif" alt="emoji-game-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+Originally built as a single Emoji Game, this project was later extended into a **scalable multi-game application** using React Router and reusable components.
 
-### Design Files
+---
 
-<details>
-<summary>Click to view</summary>
+## 🏠 Home Screen
 
-- [Extra Small (Size < 576px), Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/emoji-game-sm-outputs.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Game View](https://assets.ccbp.in/frontend/content/react-js/emoji-game-lg-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Won Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-won-game-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Lose Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-lose-game-lg-output.png)
+* Central hub to access all available games
+* Clean and colorful UI
+* Simple navigation to game modes and levels
 
-</details>
+---
 
-### Set Up Instructions
+## 🕹️ Games Included
 
-<details>
-<summary>Click to view</summary>
+### 1️⃣ Emoji Match Game
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+A memory-based matching game where players must match identical emojis within limited tries.
 
-### Completion Instructions
+**Features**
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+* Grid-based emoji layout
+* Matching logic using React state
+* Limited number of attempts
+* Clear win and lose feedback
+* Dedicated navigation bar with rules and home option
 
-The app must have the following functionalities
+---
 
-- Initially, the _Score_ and _Total Score_ for the current game should be **0**
-- When an **Emoji** is clicked,
+### 2️⃣ Emoji Game (Memory Click Game)
 
-  - If it is not the same as any of the previously clicked emojis, then the _Score_ should be incremented by one
-  - If all the emojis are clicked exactly once
+A classic memory challenge where each emoji must be clicked **only once**.
 
-    - [Won Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-won-game-lg-output.png) view should be displayed
+**Features**
 
-  - If it is the same as any of the previously clicked emojis
-    - [Lose Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-lose-game-lg-output.png) view should be displayed
-  - If the score achieved in the current game is higher than the previous scores then the _Top Score_ should be updated accordingly
+* Emojis shuffle after every click
+* Score increases on unique emoji clicks
+* Clicking a repeated emoji ends the game
+* Timer-based gameplay
+* Top Score persists across games
+* Difficulty modes: Easy, Medium, Hard
 
-- When the _Play Again_ button is clicked, then we should be able to play the game again
-  - The _Score_ value should be reset but not the _Top Score_ value
-- The `EmojiGame` component receives the `emojisList` as a prop. It consists of a list of emoji objects with the following properties in each emoji object
+---
 
-  |    Key    | Data Type |
-  | :-------: | :-------: |
-  |    id     |  Number   |
-  | emojiName |  String   |
-  | emojiUrl  |  String   |
+### 3️⃣ Emoji Search Game
 
-</details>
+A focus-based game where players must find a **target emoji** among similar-looking emojis.
 
-<details>
-<summary>Components Structure</summary>
+**Features**
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/emoji-game-game-view-component-breakdown-structure.png" alt="emoji game view component breakdown structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+* Target emoji displayed clearly
+* Level-based progression
+* Increasing difficulty with each level
+* Limited tries per level
+* Rules accessible during gameplay
 
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/emoji-game-win-lose-component-breakdown-structure.png" alt="emoji game win or lose component breakdown structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+---
 
-</details>
+## 🧩 Levels & Difficulty System
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+* Multiple difficulty modes: Easy / Medium / Hard
+* Each mode increases:
 
-Use these files to complete the implementation:
+  * Emoji count
+  * Visual similarity
+  * Overall challenge
+* Implemented using **dynamic routing (React Router v6)**
 
-- `src/components/EmojiGame/index.js`
-- `src/components/EmojiGame/index.css`
-- `src/components/NavBar/index.js`
-- `src/components/NavBar/index.css`
-- `src/components/EmojiCard/index.js`
-- `src/components/EmojiCard/index.css`
-- `src/components/WinOrLoseCard/index.js`
-- `src/components/WinOrLoseCard/index.css`
-</details>
+---
 
-### Quick Tips
+## 🧭 Application Flow
 
-<details>
-<summary>Click to view</summary>
-<br>
+1. Home Page → Select a game
+2. Mode or Level Selection
+3. Gameplay Screen
+4. Result Screen (Win / Lose)
+5. Play Again or Change Mode
 
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
+---
 
-  ```
-    cursor: pointer;
-  ```
+## 🛠️ Technologies Used
 
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
+* React JS
+* React Router v6
+* JavaScript (ES6+)
+* CSS3 (Flexbox)
+* Git & GitHub
 
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
+---
 
-  ```
-    outline: none;
-  ```
+## 📁 Folder Structure
 
-</details>
+```text
+src/components/
+├── EmojiGame
+├── EmojiMatch
+├── EmojiSearch
+├── Home
+├── GameType
+├── LevelsType
+├── MatchCard
+├── MatchNavBar
+├── SearchCard
+├── SearchGameLevel
+├── NavBar
+├── WinOrLoseCard
+├── NotFound
+```
 
-### Important Note
+---
 
-<details>
-<summary>Click to view</summary>
+## ⚙️ Setup Instructions
 
-<br/>
+1. Install dependencies
 
-**The following instructions are required for the tests to pass**
+```bash
+npm install
+```
 
-- The emojis should have the alt as the value of the key `emojiName` from each emoji object
+2. Start the development server
 
-</details>
+```bash
+npm start
+```
 
-### Resources
+---
 
-<details>
-<summary>Image URLs</summary>
+## ⚠️ Important Notes (NxtWave Compatibility)
 
-- [https://assets.ccbp.in/frontend/react-js/game-logo-img.png](https://assets.ccbp.in/frontend/react-js/game-logo-img.png) alt should be **emoji logo**
-- [https://assets.ccbp.in/frontend/react-js/won-game-img.png](https://assets.ccbp.in/frontend/react-js/won-game-img.png)
-- [https://assets.ccbp.in/frontend/react-js/lose-game-img.png](https://assets.ccbp.in/frontend/react-js/lose-game-img.png)
+* Component folder names are unchanged
+* Pre-filled code is preserved
+* Emoji images use `alt={emojiName}` as required
+* Project follows NxtWave testing constraints
 
-</details>
+---
 
-<details>
-<summary>Colors</summary>
+## 🎨 UI & Design Highlights
 
-<br/>
+* Font: **Roboto**
+* Bright, emoji-friendly color palette
+* Gradient backgrounds
+* Responsive layouts using Flexbox
+* Clear visual feedback for interactions
 
-<div style="background-color: #6a59ff ; width: 150px; padding: 10px; color: white">Hex: #6a59ff</div>
-<div style="background-color: #ffffff ; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #3d3d3d ; width: 150px; padding: 10px; color: white">Hex: #3d3d3d</div>
+---
 
-#### Background Colors
+## 🚀 Future Enhancements
 
-<div style="background-color: #9796f0 ; width: 150px; padding: 10px; color: white">Hex: #9796f0</div>
-<div style="background-color: #fbc7d4 ; width: 150px; padding: 10px; color: black">Hex: #fbc7d4</div>
-<div style="background-color: #ffffff33 ; width: 150px; padding: 10px; color: black">Hex: #ffffff33</div>
-<div style="background-color: #ffce27 ; width: 150px; padding: 10px; color: black">Hex: #ffce27</div>
+* Global leaderboard
+* Sound effects and animations
+* Mobile-first optimizations
+* Timed challenges across all games
 
-#### Border Colors
+---
 
-<div style="background-color: #ffffff30 ; width: 150px; padding: 10px; color: black">Hex: #ffffff30</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
