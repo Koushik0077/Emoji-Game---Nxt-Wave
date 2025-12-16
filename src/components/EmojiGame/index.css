@@ -10,12 +10,10 @@
   align-items: center;
 }
 .ulist1 {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  gap: 10px;
+  grid-template-rows: repeat(4, 1fr);
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   list-style-type: none;
-  padding-left: 225px;
-  padding-right: 225px;
+  margin-top: 15px;
 }

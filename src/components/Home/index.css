@@ -1,0 +1,96 @@
+.h-container1 {
+  background-image: url('https://marketplace.canva.com/EAGLvAOSJdw/1/0/1600w/canva-yellow-orange-gradient-desktop-wallpaper-Q5q9sPndNx8.jpg?utm_source=chatgpt.com');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.emojis-h1 {
+  font-size: 100px;
+}
+.title-top {
+  display: block;
+  font-size: 70px;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow:
+    -3px -3px 0 #3f51b5,
+    3px -3px 0 #3f51b5,
+    -3px 3px 0 #3f51b5,
+    3px 3px 0 #3f51b5,
+    0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+.title-bottom {
+  display: block;
+  font-size: 75px;
+  font-weight: 900;
+  color: #ffcc33; /* yellow/orange like Bubble Boom */
+  text-shadow:
+    -3px -3px 0 #714ab4,
+    3px -3px 0 #714ab4,
+    -3px 3px 0 #714ab4,
+    3px 3px 0 #714ab4,
+    0px 8px 18px rgba(0, 0, 0, 0.35);
+  margin-top: -20px;
+}
+.h-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.span1 {
+  color: #087aa3;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.p1 {
+  margin: 10px;
+  color: #0c435f;
+}
+
+h2 {
+  color: #188230;
+  font-size: 30px;
+}
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background: rgb(116, 197, 229);
+  padding: 20px;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 10px;
+}
+li {
+  margin-bottom: 5px;
+}
+ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.close-button {
+  width: 100px;
+  height: 35px;
+  background-color: #cd2727;
+  border-width: 0px;
+  outline: none;
+  border-radius: 5px;
+  color: #f9f4f4;
+}
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}

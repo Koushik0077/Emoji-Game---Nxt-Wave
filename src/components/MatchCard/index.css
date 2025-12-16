@@ -1,17 +1,15 @@
-/* Write your code here. */
-
 .list1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   align-self: center;
-  width: 115px;
-  height: 115px;
+  flex-shrink: 1;
   border: 3px solid #ffffff30;
   background-color: #ffffff33;
   border-radius: 20px;
   cursor: pointer;
+  margin: 0px;
 }
 .li-emoji {
   height: 50%;

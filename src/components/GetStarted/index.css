@@ -1,0 +1,50 @@
+.gs-container1 {
+  background: url('https://png.pngtree.com/background/20210714/original/pngtree-emoji-border-cartoon-background-picture-image_1233748.jpg')
+    no-repeat center;
+  background-size: contain;
+  background-color: #b5e5ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btns-div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 5vh;
+}
+.btn-level {
+  height: 40px;
+  width: 125px;
+  border-width: 0px;
+  color: #fbfdfe;
+  border-radius: 5px;
+}
+.btn-easy {
+  background-color: #40e968;
+}
+.btn-medium {
+  background-color: #a2811e;
+}
+.btn-hard {
+  background-color: #f24e5e;
+}
+.h1-level {
+  font-weight: 700;
+  font-family: Bree Serif;
+  color: #257ecc;
+  font-size: 40px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+.rules-button {
+  width: 150px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #f9f4f4;
+  background-color: rgb(170, 22, 170);
+  margin-top: 20vh;
+}

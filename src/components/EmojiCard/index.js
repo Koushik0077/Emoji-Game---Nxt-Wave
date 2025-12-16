@@ -11,12 +11,13 @@ class EmojiCard extends Component {
 
   render() {
     const {emojiName, emojiUrl} = this.props
+    console.log(emojiUrl)
     return (
-      <li className="list1">
-        <button type="button" className="noBg-btn" onClick={this.shuffleEmojis}>
+      <button type="button" className="noBg-btn" onClick={this.shuffleEmojis}>
+        <li className="list1">
           <img src={emojiUrl} alt={emojiName} className="li-emoji" />
-        </button>
-      </li>
+        </li>
+      </button>
     )
   }
 }

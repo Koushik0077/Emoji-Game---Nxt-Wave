@@ -1,0 +1,69 @@
+.search-level-div {
+  min-height: 100vh;
+  background: #272727;
+  padding: 50px;
+  padding-top: 10px;
+}
+.start-game-heading {
+  font-family: 'Arial Black', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 50px;
+  color: inherit;
+  text-shadow:
+    -2px 0 0 #72c5e6,
+    2px 0 0 #72c5e6,
+    0 -2px 0 #72c5e6,
+    0 2px 0 #72c5e6,
+    -2px -2px 0 #72c5e6,
+    2px -2px 0 #72c5e6,
+    -2px 2px 0 #72c5e6,
+    2px 2px 0 #72c5e6,
+    0 0 10px rgba(114, 197, 230, 0.7);
+}
+.level-btn {
+  border-width: 0px;
+  padding: 5px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  color: #f9f9f9;
+}
+.easy-btn {
+  background-color: #3fce4d;
+}
+.medium-btn {
+  background-color: #e9b826;
+}
+.hard-btn {
+  background-color: #dc3545;
+}
+.btn-levels {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+  color: #f9f9f9;
+}
+.tries-para {
+  text-align: center;
+  margin-top: 10px;
+}
+.star-btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.star-for-level {
+  color: #e9b826;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.medium-stars {
+  display: flex;
+  gap: 10px;
+}
+.add-margin-top {
+  margin-top: 20px;
+}

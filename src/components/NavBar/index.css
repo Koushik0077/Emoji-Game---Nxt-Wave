@@ -2,19 +2,22 @@
 .nb-container1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   background-color: #9796f0;
   color: #ffffff;
   font-weight: 500;
+  padding: 10px;
 }
 .nb-container1-condition {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-left: 250px;
+  padding-left: 200px;
   background-color: #9796f0;
   color: #ffffff;
   font-weight: 500;
+  padding: 10px;
 }
 .nb-container2 {
   display: flex;
@@ -26,8 +29,17 @@
   margin-right: 20px;
 }
 .h1-emoji-game {
+  color: #f9f9f9;
   font-size: 20px;
 }
 .emoji-logo {
   height: 40px;
+}
+.link-to-home {
+  color: inherit;
+  text-decoration: none !important;
+}
+.timer-div {
+  display: flex;
+  align-items: center;
 }

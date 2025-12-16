@@ -1,0 +1,149 @@
+.main-esearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#4d4747, #ff8c9d);
+  min-height: 100vh;
+}
+.find-emoji {
+  width: 60px;
+  height: 60px;
+}
+.result-won-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background: linear-gradient(#000000, #4d4747, #ff8c9d);
+  height: 70vh;
+  width: 30vw;
+  margin-top: 50px;
+  border-radius: 15px;
+  border: 3px solid #35e062;
+}
+.won-h1 {
+  color: #35e062;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+}
+.border-win {
+  border-radius: 10px;
+  border: 3px solid #90ee90;
+  padding: 5px;
+  color: #35e062;
+  transform: skewY(-3deg);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.perfect-div {
+  border-width: 0px;
+  background-color: #e0c935;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transform: skewY(-3deg);
+}
+.perfect-h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.trophy-won {
+  font-size: 100px;
+  color: #ffd700;
+}
+.tries-h3 {
+  color: #f9f9f9;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px;
+}
+.play-again-btn {
+  background-color: #ffc403;
+  border-width: 0px;
+  border-radius: 10px;
+  outline: none;
+  height: 35px;
+  width: 100px;
+  color: #2b2a2a;
+}
+.retry-btn {
+  background-color: #e0353e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.trophy-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.star-trophy {
+  font-size: 20px;
+  border-width: 0px;
+  color: #ffd700;
+}
+.lost-color-border {
+  border: 3px solid #e0353e;
+}
+.lost-color {
+  color: #e0353e;
+}
+.tries-over {
+  background-color: #929191;
+}
+.win-buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.next-level-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #35e062;
+  color: #1a1a1a;
+}
+.target-img-div {
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: 3px solid #e0353e;
+}
+.ulist11 {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: repeat(4, 96px);
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 15px;
+}
+.find-me-div {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+.findme-h1 {
+  font-size: 25px;
+  color: #cf582d;
+}
+.next-icon {
+  font-size: 20px;
+}
+.si-div-container {
+  margin-top: 100px;
+  position: fixed;
+}
+.hard-stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

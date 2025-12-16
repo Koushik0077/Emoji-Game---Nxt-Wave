@@ -1,0 +1,42 @@
+.nf-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.nf-title {
+  font-size: 90px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.nf-message {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.nf-emoji {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.nf-button {
+  background: #ff6f61;
+  padding: 12px 28px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nf-button:hover {
+  background: #ff4c3b;
+}
