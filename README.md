@@ -156,10 +156,7 @@ npm start
 * Timed challenges across all games
 
 ---
-## 🚀 Live Demo
-👉 https://haveemojifun.ccbp.tech
 
 ## 🚀 Live Demo
-👉 ## 🚀 Live Demo
 👉 https://emojizonehub.ccbp.tech/
 
