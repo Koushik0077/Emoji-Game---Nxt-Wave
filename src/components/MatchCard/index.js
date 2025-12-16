@@ -35,7 +35,7 @@ function MatchCard({
         }
       >
         <img
-          src={!show ? emojiUrl : hideUrl}
+          src={show ? emojiUrl : hideUrl}
           alt={emojiName}
           className="li-emoji"
         />

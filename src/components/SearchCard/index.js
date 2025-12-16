@@ -16,7 +16,7 @@ function MatchCard(props) {
     <li className="list1">
       <button type="button" className="noBg-btn" onClick={checkEmoji}>
         <img
-          src={!showEmoji ? emojiUrl : hideUrl}
+          src={showEmoji ? emojiUrl : hideUrl}
           alt={emojiName}
           className="li-emojii"
         />

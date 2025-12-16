@@ -10,16 +10,9 @@
   letter-spacing: 3px;
   font-size: 50px;
   color: inherit;
-  text-shadow:
-    -2px 0 0 #72c5e6,
-    2px 0 0 #72c5e6,
-    0 -2px 0 #72c5e6,
-    0 2px 0 #72c5e6,
-    -2px -2px 0 #72c5e6,
-    2px -2px 0 #72c5e6,
-    -2px 2px 0 #72c5e6,
-    2px 2px 0 #72c5e6,
-    0 0 10px rgba(114, 197, 230, 0.7);
+  text-shadow: -2px 0 0 #72c5e6, 2px 0 0 #72c5e6, 0 -2px 0 #72c5e6,
+    0 2px 0 #72c5e6, -2px -2px 0 #72c5e6, 2px -2px 0 #72c5e6, -2px 2px 0 #72c5e6,
+    2px 2px 0 #72c5e6, 0 0 10px rgba(114, 197, 230, 0.7);
 }
 .level-btn {
   border-width: 0px;
