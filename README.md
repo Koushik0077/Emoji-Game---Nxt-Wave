@@ -129,15 +129,6 @@ npm start
 
 ---
 
-## ⚠️ Important Notes (NxtWave Compatibility)
-
-* Component folder names are unchanged
-* Pre-filled code is preserved
-* Emoji images use `alt={emojiName}` as required
-* Project follows NxtWave testing constraints
-
----
-
 ## 🎨 UI & Design Highlights
 
 * Font: **Roboto**
